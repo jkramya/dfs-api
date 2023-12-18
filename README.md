@@ -47,3 +47,6 @@ Implemented the circuit breaker mechanism for the write operation.
 
 Wrote JUnit tests for the controller class and shared file class.
 Integration tests were created to check the endpoints.
+
+# API Documentation
+http://localhost:8080/swagger-ui/index.html
