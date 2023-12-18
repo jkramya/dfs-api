@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Interaction</title>
+</head>
+<script src="filesharing2.js"></script>
+<body>
+<h1>API Interaction</h1>
+
+<div>
+    <h2>Read Data</h2>
+    <button onclick="readData()">Read Data from API</button>
+    <!-- Initially hide the textarea -->
+    <textarea id="readResult" readonly rows="5" cols="50" style="display: none;margin-top: 10px;"></textarea>
+</div>
+
+<div style="margin-top: 10px;">
+    <h2>Write Data</h2>
+    <textarea id="writeInput" placeholder="Enter data to write" rows="5" cols="50"></textarea>
+    <div style="margin-top: 10px;"> <button onclick="writeData()">Write Data to API</button></div>
+    <div id="writeResult"></div>
+</div>
+
+</body>
+</html>
