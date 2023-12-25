@@ -1,4 +1,4 @@
-# Distrubuted File Sharing System
+# Distributed File Sharing System
 The following was discovered as part of building this project:
 
 * The original package name 'com.basktpay.dfs-api' is invalid and this project uses 'com.basktpay.dfsapi' instead.
